@@ -1,0 +1,8 @@
+A=int(input("Enter 1st number A:"))
+B=int(input("Enter 2nd number B:"))
+C=int(input("Enter 3rd number C:"))
+l=[A,B,C]#creating list of numbers
+l.sort()#sorting list
+print("Smallest number=",l[0])
+print("Next higher number=",l[1])
+print("Highest number=",l[2])
