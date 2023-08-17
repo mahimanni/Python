@@ -1,0 +1,6 @@
+w=int(input("Enter weight in kg:"))
+h=int(input("Enter height in m:"))  
+bmi=w/(h*h) #calculating bmi using formula
+print("The weight in kg:",w)
+print("The height in m:",h)    
+print("The body mass index BMI:",bmi)
