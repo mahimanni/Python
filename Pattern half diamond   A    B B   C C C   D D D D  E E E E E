@@ -1,0 +1,17 @@
+#     A
+#    B B
+#   C C C
+#  D D D D
+# E E E E E
+a=1
+j=4
+x=65
+while(a<=5):
+    for i in range(j):
+       print(sep=" ",end=" ")#sep and normal space are two different things here sep gives you half triangle
+    j=j-1   
+    for i in range(a):
+        print(chr(x),end=" ")
+    x=x+1
+    print()
+    a=a+1
