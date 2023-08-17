@@ -1,0 +1,15 @@
+l=[] #created empty list to take values further
+
+for i in range(10): #values will be included from 0-9
+    l.append(int(input(f"Enter {i+1} number:"))) #giving 1 indexing to user for input and appending list
+
+print("The numbers are:")
+for i in range(10):
+    print(l[i]) #displaying the numbers
+
+l.sort()#sorting the list
+
+#giving lowest number i.e. 1st number in ascending order(element at 0th position in list)
+print("Lowest number:",l[0])
+#giving second lowest number i.e. 2nd number in ascending order(element at 1st position in list)
+print("Second Lowest number:",l[1])
