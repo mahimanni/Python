@@ -1,0 +1,10 @@
+def area(b,h):
+    return(b*h)
+def perimeter(b,w):
+    return(2*b+2*w)
+base=int(input("Enter base of parallelogram:"))
+width=int(input("Enter width of parallelogram:"))
+height=int(input("Enter height of parallelogram:"))
+print("Base=",base,"\nWidth=",width,"\nHeight=",height)
+print("Area of parallelogram:",area(base,height))
+print("Perimeter of parallelogram:",perimeter(base,width))
