@@ -1,0 +1,30 @@
+n=int(input("Enter integer greater than 1000:"))
+if(n<=1000):
+    print("Enterd number not greater than 1000")
+else:
+    print("Number entered is:",n)    
+    choice=int(input("Enter 1 to check Palindrome Number\nEnter 2 to check Prime Number\nEnter your choice:"))
+    match choice:
+        case 1:
+            m=n
+            r=0
+            while(n>0):
+                a=n%10
+                r=a+(r*10)
+                n=n//10
+            if(m==r):
+                print("Number entered is a Palindrome number")   
+            else:
+                print("Number entered is not a Palindrome number")     
+        case 2:
+            c=0
+            for i in range(2,n):
+                if(n%i==0):
+                    c=1
+                    break
+            if(c==0):
+                print("Number entered is a Prime number")   
+            else:
+                print("Number entered is not a Prime number")        
+        case _: 
+            print("Invalid choice")
