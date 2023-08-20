@@ -1,0 +1,11 @@
+marks=0
+name=input("Enter name of student:")
+id=int(input("Enter id of student:"))
+l=[]
+for i in range(5):
+    l.append(int(input(f"Enter marks of {i+1} subject:")))
+    marks=marks+l[i]
+percentage=(marks/500)*100
+print("Name of student : ",name)  
+print("ID of student : ",id) 
+print("Percentage of student : ",percentage)
