@@ -1,0 +1,17 @@
+l=[]
+for i in range(3):
+    l.append(int(input(f"Enter {i+1} angle:")))
+s=l[0]+l[1]+l[2]
+if(s==180):
+    print("Entered angles can form a triangle")
+    for i in range(3):
+        if(l[i]==90):
+            print("It is right angled triangle")
+            break
+        elif(l[i]>90):
+            print("It is obtuse triangle")
+            break
+    else:
+        print("It is acute triangle")    
+else:
+    print("Entered angles cannot form a triangle")
