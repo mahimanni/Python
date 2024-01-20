@@ -1,6 +1,0 @@
-#values from 1 to 40 with step value 3 (incrementing i by 3 in very iteration till 40)
-for i in range(1,41,3):
-     if(i%2==0):#if i is even then printing it with negative sign
-        print(-i,end=" ")
-     else:   
-        print(i,end=" ")#if i is odd then printing it with positive sign

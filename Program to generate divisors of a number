@@ -1,7 +1,0 @@
-n=int(input("Enter number:"))
-print(f"Divisors of given number {n} are:")
-
-#Since stop value is not included so n+1 not included values will be from 1 to n
-for i in range(1,n+1):
-    if(n%i==0):#if number is completely divisible by i then i will be divisor of the number
-        print(i)

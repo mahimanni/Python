@@ -1,8 +1,0 @@
-s=0
-N=int(input("Enter value of N:"))
-for i in range(1,N+1):
-      k=1#because each term sum will start from 1
-      for j in range(1,i+1):
-             s=s+k#calculating each term sum and adding it in s till Nth term
-             k+=2#each term adds upto its positional value i with increment of 2 everytime like 1+3+5 for 3 position
-print("Sum=",s)

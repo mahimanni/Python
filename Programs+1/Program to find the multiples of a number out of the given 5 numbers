@@ -1,9 +1,0 @@
-n=int(input("Enter number whose multiples you want:"))
-l=[]
-print("Enter 5 numbers:")
-for i in range(5):
-    l.append(int(input(f"Enter {i+1} number:")))
-print("Multiples of number entered out of given 5 numbers are:")
-for j in range(5):
-     if(n%l[j]==0):
-          print(l[j])
